@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">visualchart</string>
+    <string name="error_occurred">error_occurred</string>
 </resources>
