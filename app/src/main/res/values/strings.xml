@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">visualchart</string>
-    <string name="error_occurred">error_occurred</string>
+    <string name="error_occurred">不好意思App翻车了，请联系我们吧</string>
+
 </resources>
