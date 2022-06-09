@@ -32,13 +32,6 @@ android {
         dataBinding true
     }
 
-    dexOptions {
-        preDexLibraries = false
-    }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
-
 }
 
 dependencies {
@@ -65,16 +58,12 @@ dependencies {
     implementation "com.afollestad.material-dialogs:datetime:3.3.0"
     implementation "com.afollestad.material-dialogs:bottomsheets:3.3.0"
 
-    //BaseAdapter
-    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'
-
 
     //Bugly
     implementation 'com.tencent.bugly:crashreport_upgrade:1.4.5'
     implementation 'com.tencent.bugly:nativecrashreport:3.7.1'
 //    //屏幕适配
 //    implementation 'com.github.JessYanCoding:AndroidAutoSize:v1.2.1'
-
 
     //防崩溃
     implementation 'cat.ereza:customactivityoncrash:2.3.0'
